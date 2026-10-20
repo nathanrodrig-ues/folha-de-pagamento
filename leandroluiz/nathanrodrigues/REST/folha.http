@@ -1,0 +1,31 @@
+//Funcionalidade 1
+###
+POST http://localhost:5139/api/folha/cadastrar/
+Content-Type: application/json
+
+{
+    "Nome": "Neymar Junior",
+    "Cpf": "151515000",
+    "Mes": 10,
+    "Ano": 2000,
+    "HorasTrabalhadas": 100,
+    "ValorHora": 20
+}
+
+// Funcionalidade 2
+###
+GET http://localhost:5139/api/folha/listar/
+
+
+//Funcionalidade 3
+###
+GET http://localhost:5139/api/folha/buscar/
+
+
+//Funcionalidade4
+### 
+DELETE http://localhost:5139/api/folha/remover/35123456710/1/2005
+
+//Funcionalidade 5
+###
+GET http://localhost:5139/api/folha/total-liquido
